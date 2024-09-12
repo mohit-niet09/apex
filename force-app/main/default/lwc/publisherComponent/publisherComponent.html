@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Publisher Component" icon-name="standard:account">
+        <div class="slds-m-top_small slds-m-bottom_medium">
+            <lightning-input label="Enter First Name" type="text" onchange={handelChange}
+                name="fname"></lightning-input>
+            <lightning-input label="Enter Last Name" type="text" onchange={handelChange} name="lname"></lightning-input>
+            <lightning-button variant="success" label="Publish" title="Successful action" onclick={handelClick}
+                class="slds-m-left_x-small"></lightning-button>
+        </div>
+    </lightning-card>
+</template>

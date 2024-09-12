@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isExposed>true</isExposed>
+    <masterLabel>myMessageChannel</masterLabel>
+    <description>This is lightning message service</description>
+    <lightningMessageFields>
+        <fieldName>firstName</fieldName>
+        <description>This is the first name of the person</description>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <fieldName>lastName</fieldName>
+        <description>This is the last name of the person</description>
+    </lightningMessageFields>
+</LightningMessageChannel>

@@ -1,0 +1,8 @@
+<template>
+    <lightning-card title="Contacts" icon-name="standard:contact">
+        <lightning-input label="Enter the limit" type="number" value={limit} onchange={handleChange}>
+        </lightning-input>
+        <lightning-datatable key-field="id" data={conList} columns={columns} hide-checkbox-column=true>
+        </lightning-datatable>
+    </lightning-card>
+</template>

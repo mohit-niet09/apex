@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Get Accounts" icon-name="standard:account">
+        <div class="slds-m-around_medium">
+            <template if:true={accountDetail}>
+                <p><strong>Account Name: </strong> {accountName}</p>
+                <p><strong>Industry: </strong> {accountIndustry}</p>
+                <p><strong>Phone: </strong> {accountPhone}</p>
+                <p><strong>Owner: </strong> {accountOwner}</p>
+            </template>
+            <lightning-button label="Delete" onclick={handelDeleteAccount} variant="destructive"
+                icon-name="utility:delete" icon-position="right"></lightning-button>
+        </div>
+    </lightning-card>
+</template>

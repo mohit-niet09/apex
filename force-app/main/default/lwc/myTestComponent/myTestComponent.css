@@ -1,0 +1,13 @@
+.margian{
+    margin-left: 20px;
+}
+
+.list-top{
+    border-top: 2px solid rgb(205, 23, 23);
+    margin-top: 5px;
+}
+
+.list-bottom{
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+}
